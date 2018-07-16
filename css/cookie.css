@@ -1,0 +1,114 @@
+/* Standardwerte */
+*{
+	margin: 0px; 
+	padding: 0px;  
+	font-family: Arial;
+	text-decoration: none;
+}
+
+body {
+	background-image: url(./../img/backgroundcw.jpg);
+	background-color: #cccccc;
+}
+
+.header {
+	text-align: center;
+	background-color: #d3bf99;
+	height: 150px;
+	width: 100%;
+}
+
+.wookiecookie {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-image: url(./../img/cookiewookie200.png);
+}
+
+.wookiecookiebar {
+	position: relative;
+	background-color: #fabcab;
+	width: 200px;
+	margin: 0 auto; /* 0 bezieht sich auf top/bottom und auto auf left/right */
+}
+
+.footer {
+
+}
+
+/* Die Menübar in voller länge */
+.menu-bar {
+	height: 40px;
+	width: 100%;
+	background: -webkit-linear-gradient(top, #451f06, #926000);
+}
+
+/* Der Bereich des Menüs, welcher genutzt werden soll */
+.bar {
+	line-height: 30px;
+	background: -webkit-linear-gradient(top, #451f06, #926000);
+	height: 40px;
+	width: 1200px;
+	margin: 0 auto; /* 0 bezieht sich auf top/bottom und auto auf left/right */
+}
+
+/* Aussehen der Verlinkungen (menu-bar) */
+li a {
+	font-size: 20px;
+	line-height: 30px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	background: -webkit-linear-gradient(top, #451f06, #926000);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.active-bar {
+	background: -webkit-linear-gradient(top, #6a4b37, #a77f32);
+}
+
+li {
+	list-style: none;
+}
+
+/* Die einzelnen Menüpunkte (li) werden links angeordnet */
+ul li {
+	float: left;
+}
+
+/* Für Elemente, welche rechts angeordnet werden sollen */
+.right {
+	float: right;
+}
+
+/* Für Elemente, welche links angeordnet werden sollen */
+.left {
+	float: left;
+}
+
+.placeholder {
+	width: 1px;
+	height: 20px;
+}
+
+/* REGISTRATION */
+
+.register {
+	width: 300px;
+	height: 400px;
+	border: 2px #926000 solid;
+	margin: 5px auto;
+	margin-top: 20px;
+	-webkit-border-radius: 5px;
+	padding: 25px;
+	background-color: #e9dfcc;
+}
+
+input {
+	height: 30px;
+	width: 300px;
+	font-size: 18px;
+}
